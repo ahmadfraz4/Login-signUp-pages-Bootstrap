@@ -1,0 +1,102 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+:root {
+  --veryLightBlue: #464de4;
+  --chineseBlue: #3b579d;
+  --chinaBar: #dc4a38;
+  --antiFlashWhite: #eff3f5;
+}
+.text-lightBlue {
+  color: var(--veryLightBlue);
+}
+.bg-lightBlue {
+  background-color: var(--veryLightBlue) !important;
+}
+.bg-chineseBlue {
+  background-color: var(--chineseBlue) !important;
+}
+.bg-antiFlashWhite {
+  background-color: var(--antiFlashWhite);
+}
+.bg-chineseBlue:hover {
+  background-color: #2c4584 !important;
+}
+div.bg-lightBlue:hover {
+  background-color: #2c33b3 !important;
+}
+.bg-chinabar {
+  background-color: #dc4a38 !important;
+}
+.bg-chinabar:hover {
+  background-color: #c03725 !important;
+}
+.fs-62 {
+  font-size: 3.875rem;
+}
+.fs-14 {
+  font-size: 14px !important;
+}
+.fs-13 {
+  font-size: 13px !important;
+}
+.fs-12 {
+  font-size: 12px !important;
+}
+.fs-18 {
+  font-size: 1.13rem;
+}
+.outline-0 {
+  outline: none;
+}
+::placeholder {
+  opacity: 0.5;
+  font-size: 14px;
+}
+.underline:hover {
+  text-decoration: underline !important;
+}
+
+.blue-checkbox {
+  height: 20px;
+  width: 20px;
+}
+
+.bg-loginpage {
+  background: url(https://www.bootstrapdash.com/demo/libertyui/template/images/auth/login-bg.jpg)
+    no-repeat;
+  background-size: cover;
+}
+.bg-secondPage {
+  background: url(https://www.bootstrapdash.com/demo/libertyui/template/images/auth/register-bg.jpg)
+    no-repeat;
+  background-size: cover;
+}
+.bottom-3 {
+  bottom: 3%;
+}
+.py-13 {
+  padding: 0.8rem !important;
+}
+@media screen and (max-width: 992px) {
+  .h-80 {
+    min-height: 90%;
+  }
+  .h-20 {
+    max-height: 20%;
+  }
+  .h-10 {
+    min-height: 10%;
+  }
+  .bottom-30-md {
+    bottom: 30%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .fs-12-sm {
+    font-size: 0.8rem !important;
+  }
+  .fs-10-sm {
+    font-size: 0.7rem !important;
+  }
+}
